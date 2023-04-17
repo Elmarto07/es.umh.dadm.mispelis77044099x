@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/peliculas_layout"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID_PELICULAS: "
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/id_peliculas_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1: "
+                android:layout_marginLeft="25dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CARÁTULA: "
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/caratula_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nodisponible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TÍTULO: "
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/titulo_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1: "
+                android:layout_marginLeft="25dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GÉNERO: "
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/genero_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1: "
+                android:layout_marginLeft="25dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CALIFICACIÓN: "
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/calificacion_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1: "
+                android:layout_marginLeft="25dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DURACIÓN: "
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/duracion_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1: "
+                android:layout_marginLeft="25dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    
+
+</RelativeLayout>
